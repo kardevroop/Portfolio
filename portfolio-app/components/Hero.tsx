@@ -1,11 +1,12 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
-import { TextGenerateEffect } from './ui/text-generate-effect'
+import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
   return (
+    <section id="home">
     <div className="pb-20 pt-36">
         <div>
             <Spotlight className="-top-40 -left-10 
@@ -24,17 +25,17 @@ const Hero = () => {
             flex flex-col items-center justify-center'>
                 <h2 className='uppercase tracking-widest
                 text-xs text-center text-blue-100 max-w-80'>
-                    Hello. I am Devroop.
+                    Designed using Next JS + React.
                 </h2>
                 <TextGenerateEffect 
                 className='text-center text-[40px]
                 md:text-5xl lg:text-6xl' 
-                words='Welcome to my Portfolio. Read ahead to know more about me.'/>
+                words='Hello. I am Devroop. Welcome to my Portfolio.'/>
 
                 <p className='uppercase text-center md:tracking-wider mb-4
                 text-sm md:text-lg lg:text-2xl'>
                     PhD Student (<a href="https://www.rit.edu/" 
-                    className='text-orange-200'>@RIT</a>) &nbsp;&nbsp; ML Researcher &nbsp;&nbsp; UI Developer
+                    className='text-orange-200'>@RIT</a>) &nbsp;&nbsp; ML Researcher &nbsp;&nbsp; Data Engineer &nbsp;&nbsp; UI Developer
                 </p>
                 <a href="#about">
                     <MagicButton 
@@ -46,7 +47,8 @@ const Hero = () => {
             </div>
         </div>
     </div>
+    </section>
   )
 }
 
-export default Hero
+export default Hero;
