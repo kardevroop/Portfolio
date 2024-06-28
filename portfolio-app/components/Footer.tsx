@@ -1,6 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
-import { socialMedia } from "@/data";
+import React from "react";
+import { socialMedia, companies } from "@/data";
 import MagicButton from "./ui/MagicButton";
 
 const Footer = () => {
@@ -35,6 +35,26 @@ const Footer = () => {
           Devroop Kar <br></br> <span className="uppercase text-orange-500 font-bold">Rochester Institute of Technology</span>
           <br></br> 1 Lomb Memorial Drive <br></br> Rochester, NY 14623
         </p>
+
+        <div className="flex flex-wrap items-center">
+          {companies.map((company) => (
+            <React.Fragment key={company.id}>
+              <div className="flex md:max-w-60 max-w-32 gap-2">
+                <img
+                  src={company.img}
+                  alt={company.name}
+                  className="md:w-10 w-5"
+                />
+                <img
+                  src={company.nameImg}
+                  alt={company.name}
+                  width={company.id === 4 || company.id === 5 ? 100 : 150}
+                  className="md:w-24 w-20"
+                />
+              </div>
+            </React.Fragment>
+          ))}
+        </div>
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (

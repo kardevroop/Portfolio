@@ -108,7 +108,7 @@ export const navItems = [
     {
       id: 1,
       title: "Augmenting Bandit Startegy with EXAMM for Stock Trading",
-      des: "Using EXAMM to build RNN networks to predict future returns and Bandits to drive stock trade decisions.",
+      des: "Using EXAMM to build RNN models to predict future returns on stocks and Bandits to drive trade decisions.",
       img: "/images/p1.svg",
       iconLists: ["/images/re.svg", "/images/tail.svg", "/images/ts.svg", "/images/three.svg", "/images/fm.svg"],
       link: "https://github.com/travisdesell/exact/tree/devroop-bandit-strategy",
@@ -205,35 +205,41 @@ export const navItems = [
   ];
   
   export const companies = [
+    // {
+    //   id: 1,
+    //   name: "cloudinary",
+    //   img: "/images/cloud.svg",
+    //   nameImg: "/images/cloudName.svg",
+    // },
+    // {
+    //   id: 2,
+    //   name: "appwrite",
+    //   img: "/images/app.svg",
+    //   nameImg: "/images/appName.svg",
+    // },
+    // {
+    //   id: 3,
+    //   name: "HOSTINGER",
+    //   img: "/images/host.svg",
+    //   nameImg: "/images/hostName.svg",
+    // },
+    // {
+    //   id: 4,
+    //   name: "stream",
+    //   img: "/images/s.svg",
+    //   nameImg: "/images/streamName.svg",
+    // },
+    // {
+    //   id: 5,
+    //   name: "docker.",
+    //   img: "/images/dock.svg",
+    //   nameImg: "/images/dockerName.svg",
+    // },
     {
-      id: 1,
-      name: "cloudinary",
-      img: "/images/cloud.svg",
-      nameImg: "/images/cloudName.svg",
-    },
-    {
-      id: 2,
-      name: "appwrite",
-      img: "/images/app.svg",
-      nameImg: "/images/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      img: "/images/host.svg",
-      nameImg: "/images/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/images/s.svg",
-      nameImg: "/images/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/images/dock.svg",
-      nameImg: "/images/dockerName.svg",
+        id: 1,
+        name: "HOSTINGER",
+        img: "/images/host.svg",
+        nameImg: "/images/hostName.svg",
     },
   ];
   
