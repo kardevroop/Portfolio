@@ -24,7 +24,7 @@ export function Bio() {
         className="text-lg md:text-xl lg:text-2xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
         >
 
-        &quot;I am a <Highlight className="text-black dark:text-white">PhD researcher</Highlight> focusing on 
+        &quot;I am a <Highlight className="text-black dark:text-white">Ph.D. researcher</Highlight> focusing on 
         <Highlight className="text-black dark:text-white">Reinforcement Learning and Multi-Armed Bandits.</Highlight> 
         My ongoing PhD research explores advanced algorithms and neural forecasting models to improve 
         <Highlight className="text-black dark:text-white">the quality of the decisions</Highlight>
