@@ -24,14 +24,14 @@ export function Bio() {
         className="text-lg md:text-xl lg:text-2xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
         >
 
-        "I am a <Highlight className="text-black dark:text-white">PhD researcher</Highlight> focusing on 
+        &quot;I am a <Highlight className="text-black dark:text-white">PhD researcher</Highlight> focusing on 
         <Highlight className="text-black dark:text-white">Reinforcement Learning and Multi-Armed Bandits.</Highlight> 
         My ongoing PhD research explores advanced algorithms and neural forecasting models to improve 
         <Highlight className="text-black dark:text-white">the quality of the decisions</Highlight>
         taken by Multi-Armed Bandits and make them robust against <Highlight className="text-black dark:text-white">data integrity issues.</Highlight> 
         I am committed to advancing AI and machine learning by integrating practical engineering skills with 
         <Highlight className="text-black dark:text-white">cutting-edge</Highlight> academic research to <br></br> 
-        <Highlight className="text-black dark:text-white"> address complex challenges and drive innovation.</Highlight>"
+        <Highlight className="text-black dark:text-white"> address complex challenges and drive innovation.</Highlight>&quot;
 
         </motion.h1>
     </HeroHighlight>
