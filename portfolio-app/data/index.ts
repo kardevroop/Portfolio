@@ -128,7 +128,7 @@ export const navItems = [
       des: "Designed an MVC-based adventure game leveraging Java and Swing and adhering to standard design patterns.",
       img: "/images/p3.svg",
       iconLists: ["/images/re.svg", "/images/tail.svg", "/images/ts.svg", "/images/three.svg", "/images/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com/kardevroop",
     },
     {
       id: 4,
