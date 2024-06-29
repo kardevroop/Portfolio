@@ -1,4 +1,5 @@
 import Approach from "@components/Approach";
+import Bio from "@components/Bio";
 import Clients from "@components/Clients";
 import Education from "@components/Education";
 import Experience from "@components/Experience";
@@ -18,12 +19,13 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
         <Hero/>
+        <Bio/>
         <Grid/>
         <Education/>
+        <Experience/>
         <RecentProjects/>
         {/* <Clients/> */}
         <Publications/>
-        <Experience/>
         <Approach/>
         <Footer/>
       </div>

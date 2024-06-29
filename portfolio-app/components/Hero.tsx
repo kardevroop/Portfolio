@@ -34,8 +34,8 @@ const Hero = () => {
 
                 <p className='uppercase text-center md:tracking-wider mb-4
                 text-sm md:text-lg lg:text-2xl'>
-                    PhD Student (<a href="https://www.rit.edu/" 
-                    className='text-orange-200'>@RIT</a>) &nbsp;&nbsp; ML Researcher &nbsp;&nbsp; Data Engineer &nbsp;&nbsp; UI Developer
+                    Ph.D. Student (<a href="https://www.rit.edu/" 
+                    className='text-orange-200'>@RIT</a>) &nbsp;&nbsp; ML Researcher &nbsp;&nbsp; Developer
                 </p>
                 <a href="#about">
                     <MagicButton 

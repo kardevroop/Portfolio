@@ -2,9 +2,10 @@ export const navItems = [
     { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
     // { name: "Education", link: "#education" },
+    { name: "Experience", link: "#experience" },
     { name: "Projects", link: "#projects" },
     // { name: "Testimonials", link: "#testimonials" },
-    { name: "Publications", link: "#publications" },
+    //{ name: "Publications", link: "#publications" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -178,7 +179,7 @@ export const navItems = [
         "\"Computer aided breast cancer detection using ensembling of texture and statistical image features.\"",
       authors: "Roy, Soumya Deep, Soham Das, Devroop Kar, Friedhelm Schwenker and Ram Sarkar.",
       venue: "Sensors 21.11 (2021): 3628.",
-      link: "2019",
+      link: "https://doi.org/10.3390/s21113628",
     },
     {
       article:

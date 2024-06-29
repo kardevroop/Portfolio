@@ -24,9 +24,9 @@ const Education = () => {
             </div>
             <div className="timeline-start mb-10 md:text-end">
             <time className="text-3xl font-mono italic">2015 - 2019</time>
-            <div className="text-2xl font-black text-orange-200">B.E. in Computer Science and Engineering</div>
-            <div className="text-xl font-black">Graduated from <span className='text-purple'>Jadavpur University, India </span> 
-            with <span className='text-purple'>8.37(/10) CGPA </span>  
+            <div className="text-2xl font-black text-amber-400">B.E. in Computer Science and Engineering</div>
+            <div className="text-xl font-black">Graduated from <span className='text-red-400'>Jadavpur University, India </span> 
+            with <br></br><span className='text-purple'>8.37(/10) CGPA </span>  
             and <span className='text-purple'>Honours First Class</span> 
             </div>
             </div>
@@ -49,8 +49,8 @@ const Education = () => {
             <div className="timeline-end mb-10">
             <time className="text-3xl font-mono italic">2021 - 2022</time>
             <div className="text-2xl font-black text-amber-400">M.S. in Computer Science </div>
-            <div className="text-xl font-black">Graduated from <span className='text-red-400'>Northeastern University </span> 
-            with <span className='text-purple'>3.67 GPA </span>
+            <div className="text-xl font-black">Graduated from <span className='text-red-400'>Northeastern University, Boston </span> 
+            with <br></br><span className='text-purple'>3.67 GPA </span>
             </div>
             </div>
             <hr />
@@ -71,8 +71,8 @@ const Education = () => {
             </div>
             <div className="timeline-start mb-10 md:text-end">
             <time className="text-3xl font-mono italic">2023</time>
-            <div className="text-2xl font-black">Currently pursuing <span className='text-orange-300'>Ph.D. in Computing and Information Sciences</span> </div>
-            <div className="text-xl font-black">@Rochester Insitute of Technology, Rochester
+            <div className="text-2xl font-black">Currently pursuing <span className='text-amber-400'>Ph.D. in Computing and Information Sciences</span> </div>
+            <div className="text-xl font-black text-red-400">@Rochester Insitute of Technology, Rochester
             </div>
             </div>
             <hr />
