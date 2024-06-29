@@ -108,7 +108,7 @@ export const navItems = [
     // },
     {
       id: 1,
-      title: "Augmenting Bandit Startegy with EXAMM for Stock Trading",
+      title: "Augmenting Bandit Strategy with EXAMM for Stock Trading",
       des: "Using EXAMM to build RNN models to predict future returns on stocks and Bandits to drive trade decisions.",
       img: "/images/p1.svg",
       iconLists: ["/images/re.svg", "/images/tail.svg", "/images/ts.svg", "/images/three.svg", "/images/fm.svg"],
@@ -125,7 +125,7 @@ export const navItems = [
     {
       id: 3,
       title: "Dungeon Crawl: A GUI Game on Java",
-      des: "Designed an MVC-based adventure game leveraging Java and Swing leveraging standard design patterns.",
+      des: "Designed an MVC-based adventure game leveraging Java and Swing and adhering to standard design patterns.",
       img: "/images/p3.svg",
       iconLists: ["/images/re.svg", "/images/tail.svg", "/images/ts.svg", "/images/three.svg", "/images/c.svg"],
       link: "https://github.com/adrianhajdin/ai_saas_app",
