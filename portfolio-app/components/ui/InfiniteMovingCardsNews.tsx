@@ -11,13 +11,14 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    // quote: string;
-    // name: string;
-    // title: string;
-    article: string;
-    authors: string;
-    venue: string;
-    link: string;
+    quote?: string;
+    name?: string;
+    title?: string;
+    img?: string;
+    article?: string;
+    authors?: string;
+    venue?: string;
+    link?: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -114,26 +115,12 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              {/* change text color, text-lg */}
-              {/* <a href={item.link} target="_blank"> */}
-              <span className=" relative z-20 text-md md:text-lg leading-[1.6] text-white font-normal">
-                {item.article}
-              </span>
-              {/* </a> */}
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                {/* add this div for the profile img */}
-                {/* <div className="me-3">
-                  <img src="/images/profile.svg" alt="profile" />
-                </div> */}
-                <span className="flex flex-col gap-1">
-                  {/* change text color, font-normal to font-bold, text-xl */}
-                  <span className="text-xl font-bold leading-[1.6] text-white">
-                    {item.authors}
-                  </span>
-                  {/* change text color */}
-                  <span className=" text-sm leading-[1.6] text-white-200 font-normal">
-                    {item.venue}
-                  </span>
+              <div className="flex flex-row">
+                <div className="me-3">
+                  <img src={item.img} alt="profile" />
+                </div>
+                <span className="flex flex-col justify-center gap-1 relative z-20 text-md md:text-lg leading-[1.6] text-white font-normal">
+                  {item.title}
                 </span>
               </div>
             </blockquote>

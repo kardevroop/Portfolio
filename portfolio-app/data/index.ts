@@ -2,17 +2,18 @@ export const navItems = [
     { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
     // { name: "Education", link: "#education" },
-    { name: "Experience", link: "#experience" },
-    { name: "Projects", link: "#projects" },
+    // { name: "Experience", link: "#experience" },
+    { name: "Latest News", link: "#news" },
+    { name: "Publications", link: "#publications" },
+    // { name: "Projects", link: "#projects" },
     // { name: "Testimonials", link: "#testimonials" },
-    //{ name: "Publications", link: "#publications" },
     { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I prioritize client collaboration, encouraging open communication ",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -22,7 +23,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "I'm adaptable to time zone communications",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -175,28 +176,36 @@ export const navItems = [
 
   export const publications = [
     {
-      article:
+      id:1,
+      article:"Roy, Soumya Deep, et al. \"Computer aided breast cancer detection using ensembling of texture and statistical image features.\" Sensors 21.11 (2021): 3628.",
+      title:
         "\"Computer aided breast cancer detection using ensembling of texture and statistical image features.\"",
       authors: "Roy, Soumya Deep, Soham Das, Devroop Kar, Friedhelm Schwenker and Ram Sarkar.",
       venue: "Sensors 21.11 (2021): 3628.",
       link: "https://doi.org/10.3390/s21113628",
     },
     {
-      article:
+      id:2,
+      article:"Sanyal, Ritabrata, Devroop Kar, and Ram Sarkar. \"Carcinoma type classification from high-resolution breast microscopy images using a hybrid ensemble of deep convolutional features and gradient boosting trees classifiers.\" IEEE/ACM transactions on computational biology and bioinformatics 19.4 (2021): 2124-2136.",
+      title:
         " \"Carcinoma type classification from high-resolution breast microscopy images using a hybrid ensemble of deep convolutional features and gradient boosting trees classifiers.\"",
       authors: "Sanyal, Ritabrata, Devroop Kar, and Ram Sarkar.",
       venue: " IEEE/ACM transactions on computational biology and bioinformatics 19.4 (2021): 2124-2136.",
       link: "https://doi.org/10.1109/TCBB.2021.3071022",
     },
     {
-      article:
+      id:3,
+      article:"Kar, Devroop, et al. \"Fuzzy mutation embedded hybrids of gravitational search and Particle Swarm Optimization methods for engineering design problems.\" Engineering Applications of Artificial Intelligence 95 (2020): 103847.",
+      title:
         "\"Fuzzy mutation embedded hybrids of gravitational search and Particle Swarm Optimization methods for engineering design problems.\"",
       authors: "Kar, Devroop, et al. ",
       venue: "Engineering Applications of Artificial Intelligence 95 (2020): 103847.",
       link: "https://doi.org/10.1016/j.engappai.2020.103847",
     },
     {
-      article:
+      id:4,
+      article: "Kar, Devroop, Asif Iqbal Middya, and Sarbani Roy. \"An approach to detect travel patterns using smartphone sensing.\" 2019 IEEE international conference on advanced networks and telecommunications systems (ANTS). IEEE, 2019.",
+      title:
         "\"An approach to detect travel patterns using smartphone sensing.\"",
       authors: "Kar, Devroop, Asif Iqbal Middya, and Sarbani Roy.",
       venue: "IEEE international conference on advanced networks and telecommunications systems (ANTS)",
@@ -312,4 +321,13 @@ export const navItems = [
       img: "/images/link.svg",
       link: "https://www.linkedin.com/in/devroopkar/",
     },
+  ];
+
+export const news = [
+    {
+      id: 1,
+      img: "/images/gecco.svg",
+      title: "Workshop Paper accepted at GECCO 2024 Conference Workshop - NEWK",
+      link: "https://newk-gecco.github.io/",
+    }
   ];

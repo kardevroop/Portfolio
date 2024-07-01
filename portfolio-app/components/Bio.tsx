@@ -7,7 +7,7 @@ import { HeroHighlight, Highlight } from "@/components/ui/HeroHighlight";
 export function Bio() {
   return (
     <section id="about">
-    <HeroHighlight>
+    <HeroHighlight containerClassName='dark:bg-transparent'>
       <motion.h1
         initial={{
             opacity: 0,
@@ -21,7 +21,7 @@ export function Bio() {
             duration: 0.5,
             ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-lg md:text-xl lg:text-2xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        className="text-lg md:text-xl lg:text-2xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto"
         >
 
         &quot;I am a <Highlight className="text-black dark:text-white">Ph.D. researcher</Highlight> focusing on 
