@@ -332,7 +332,8 @@ export const news = [
     {
       id: 1,
       img: "/images/gecco.svg",
-      title: "Workshop Paper accepted at GECCO 2024 Conference Workshop - NEWK",
-      link: "https://newk-gecco.github.io/",
+      title: "One Workshop Paper and One Poster accepted at GECCO 2024 Conference",
+      link: "https://gecco-2024.sigevo.org/HomePage",
+      // link: "https://newk-gecco.github.io/",
     }
   ];
