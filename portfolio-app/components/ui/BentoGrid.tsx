@@ -7,8 +7,9 @@ import Lottie from "react-lottie";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
+import { techStack } from "@data";
 import MagicButton from "./MagicButton";
-import { motion, useScroll } from "framer-motion";
+import Link from "next/link";
 
 export const BentoGrid = ({
   className,
@@ -37,7 +38,7 @@ export const BentoGridItem = ({
   img,
   imgClassName,
   titleClassName,
-  spareImg
+  spareImg,
 }: {
   className?: string;
   title?: string | React.ReactNode;
@@ -50,10 +51,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["NextJS", "SQL", "Spark"];
-  const rightLists = ["Azure", "Python", "Neo4j"];
-
-  const { scrollYProgress } = useScroll();
+  const leftLists = techStack.leftLists;
+  const rightLists = techStack.rightLists;
 
   const [copied, setCopied] = useState(false);
 
@@ -131,11 +130,6 @@ export const BentoGridItem = ({
         {id === 2 && <GridGlobe />}
 
         {id === 3 && (
-          <>
-          <motion.div
-              className="progress-bar"
-              style={{ scaleX: scrollYProgress }}
-            />
           <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
             <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
               {leftLists.map((item, i) => (
@@ -162,7 +156,6 @@ export const BentoGridItem = ({
               ))}
             </div>
           </div>
-          </>
         )}
         {id === 6 && (
           <div className="mt-5 relative">

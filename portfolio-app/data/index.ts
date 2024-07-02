@@ -73,6 +73,11 @@ export const navItems = [
       spareImg: "",
     },
   ];
+
+  export const techStack = {
+    leftLists: ["NextJS", "SQL", "Spark"],
+    rightLists : ["Azure", "Python", "Neo4j"],
+  }
   
   export const projects = [
     // {
@@ -313,8 +318,8 @@ export const navItems = [
     },
     {
       id: 2,
-      img: "/images/twit.svg",
-      link: "",
+      img: "/images/google.svg",
+      link: "https://scholar.google.com/citations?user=Hana6bgAAAAJ&hl=en",
     },
     {
       id: 3,
