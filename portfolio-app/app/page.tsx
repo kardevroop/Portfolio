@@ -1,5 +1,3 @@
-"use client";
-
 import Approach from "@components/Approach";
 import Bio from "@components/Bio";
 import Clients from "@components/Clients";

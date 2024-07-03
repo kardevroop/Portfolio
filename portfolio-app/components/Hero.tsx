@@ -29,15 +29,15 @@ const Hero = () => {
                     Designed using Next JS + React.
                 </h2> */}
                 <Menu/>
+
+                <p className='uppercase text-center md:tracking-wider mt-10 mb-4
+                text-sm md:text-lg lg:text-2xl'>
+                    This is Devroop. I am a Machine Learning Researcher.
+                </p>
                 <TextGenerateEffect 
                 className='text-center text-[40px]
                 md:text-5xl lg:text-6xl' 
-                words='Hello. I am Devroop. Welcome to my Portfolio.'/>
-
-                <p className='uppercase text-center md:tracking-wider mb-4
-                text-sm md:text-lg lg:text-2xl'>
-                    Machine Learning Researcher
-                </p>
+                words='Welcome to my Portfolio.'/>
                 <a href="#about">
                     <MagicButton 
                     title="Show my Work"

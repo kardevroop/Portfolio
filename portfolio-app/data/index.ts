@@ -114,7 +114,7 @@ export const navItems = [
     // },
     {
       id: 1,
-      title: "Augmenting Bandit Strategy with EXAMM for Stock Trading",
+      title: "iCMAB: Augmenting Bandit Strategy with EXAMM for Stock Trading",
       des: "Using EXAMM to build RNN models to predict future returns on stocks and Bandits to drive trade decisions.",
       img: "/images/p1.svg",
       iconLists: ["/images/re.svg", "/images/tail.svg", "/images/ts.svg", "/images/three.svg", "/images/fm.svg"],
@@ -122,20 +122,29 @@ export const navItems = [
     },
     {
       id: 2,
+      title: "EzFlow: A Pytorch library for Optical Flow",
+      des: "Collaborated on finishing an open PyTorch library for Optical flow tasks, allowing users to design and train 6 highly configurable models like RAFT, PWCNet, VCN, etc. on 9 supported\
+       datasets like FlyingChairs, KITTI, Sintel, etc.",
+      img: "/images/p3.svg",
+      iconLists: ["/images/re.svg", "/images/tail.svg", "/images/ts.svg", "/images/three.svg", "/images/c.svg"],
+      link: "https://github.com/neu-vi/ezflow",
+    },
+    {
+      id: 3,
       title: "IBM Watson Market Data Analysis",
       des: "Leveraging a Logistic Regression Model to identify features and Random Forest to determine customer response for marketting.",
       img: "/images/p2.svg",
       iconLists: ["/images/next.svg", "/images/tail.svg", "/images/ts.svg", "/images/stream.svg", "/images/c.svg"],
       link: "https://github.com/kardevroop",
     },
-    {
-      id: 3,
-      title: "Dungeon Crawl: A GUI Game on Java",
-      des: "Designed an MVC-based adventure game leveraging Java and Swing and adhering to standard design patterns.",
-      img: "/images/p3.svg",
-      iconLists: ["/images/re.svg", "/images/tail.svg", "/images/ts.svg", "/images/three.svg", "/images/c.svg"],
-      link: "https://github.com/kardevroop",
-    },
+    // {
+    //   id: 3,
+    //   title: "Dungeon Crawl: A GUI Game on Java",
+    //   des: "Designed an MVC-based adventure game leveraging Java and Swing and adhering to standard design patterns.",
+    //   img: "/images/p3.svg",
+    //   iconLists: ["/images/re.svg", "/images/tail.svg", "/images/ts.svg", "/images/three.svg", "/images/c.svg"],
+    //   link: "https://github.com/kardevroop",
+    // },
     {
       id: 4,
       title: "Tuiter: A Social Platform",
@@ -337,3 +346,22 @@ export const news = [
       // link: "https://newk-gecco.github.io/",
     }
   ];
+
+export const techImages = [
+  "/images/tech/nextjs.jpeg",
+  "/images/tech/reactjs.png",
+  "/images/tech/neo4j.png",
+  "/images/tech/mysql.png",
+  "/images/tech/docker.png",
+  "/images/tech/snowflake.png",
+  "/images/tech/databricks.png",
+  "/images/tech/aws.png",
+  "/images/tech/azure.png",
+  "/images/tech/mongodb.png",
+  "/images/tech/matlab.jpeg",
+  "/images/tech/python.png",
+  "/images/tech/pytorch.png",
+  "/images/tech/tensorflow.png",
+];
+
+export const my_cv_link = "https://drive.google.com/file/d/1Z_lGXqhhVCWc9F0pyzwOp7kzJsOcp7Pp/view?usp=sharing"

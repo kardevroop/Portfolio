@@ -1,7 +1,8 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import React from "react";
-import { socialMedia, companies } from "@/data";
+import { socialMedia, companies, my_cv_link } from "@/data";
 import MagicButton from "./ui/MagicButton";
+import { LinkPreview } from "./ui/LinkPreview";
 
 const Footer = () => {
   return (
@@ -20,7 +21,7 @@ const Footer = () => {
           Want to know <span className="text-purple">more</span>?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Check out my CV or contact me.
+          Check out my <LinkPreview url={my_cv_link} className="font-bold dark:text-purple">CV</LinkPreview> or contact me.
         </p>
         <a href="mailto:dk7405@g.rit.edu">
           <MagicButton
