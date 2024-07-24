@@ -8,6 +8,11 @@ export function Bio() {
   return (
     <section id="about">
     <HeroHighlight containerClassName='dark:bg-transparent'>
+        <div className="avatar flex-row">
+          <div className="w-50 rounded-full">
+            <img src="/images/profile.jpg" />
+          </div>
+        
       <motion.h1
         initial={{
             opacity: 0,
@@ -24,7 +29,7 @@ export function Bio() {
         className="text-lg md:text-xl lg:text-2xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto"
         >
 
-        &quot;I am <Highlight className="text-black dark:text-white">Ph.D. student and a Graduate Research Assistant</Highlight> focusing on 
+        &quot;I am a <Highlight className="text-black dark:text-white">Ph.D. student and a Graduate Research Assistant</Highlight> focusing on 
         <Highlight className="text-black dark:text-white">Reinforcement Learning and Multi-Armed Bandits.</Highlight> 
         My ongoing Ph.D. research explores advanced algorithms and neural forecasting models to improve 
         <Highlight className="text-black dark:text-white">the quality of the decisions</Highlight>
@@ -35,6 +40,7 @@ export function Bio() {
         <Highlight className="text-black dark:text-white"> address complex challenges and drive innovation.</Highlight>&quot;
 
         </motion.h1>
+        </div>
     </HeroHighlight>
     </section>
   );
