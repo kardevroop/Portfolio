@@ -9,7 +9,7 @@ export function Bio() {
     <section id="about">
     <HeroHighlight containerClassName='dark:bg-transparent'>
         <div className="avatar flex-row">
-          <div className="w-50 rounded-full">
+          <div className="h-80 rounded-full">
             <img src="/images/profile.jpg" />
           </div>
         
@@ -26,7 +26,7 @@ export function Bio() {
             duration: 0.5,
             ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-lg md:text-xl lg:text-2xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto"
+        className="text-lg md:text-xl lg:text-2xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-left mx-auto ml-10"
         >
 
         &quot;I am a <Highlight className="text-black dark:text-white">Ph.D. student and a Graduate Research Assistant</Highlight> focusing on 
