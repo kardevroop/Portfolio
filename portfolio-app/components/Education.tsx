@@ -26,8 +26,8 @@ const Education = () => {
             <time className="text-3xl font-mono italic">2015 - 2019</time>
             <div className="text-2xl font-black text-amber-400">B.E. in Computer Science and Engineering</div>
             <div className="text-xl font-black">Graduated from <span className='text-red-400'>Jadavpur University, India </span> 
-            with <br></br><span className='text-purple'>8.37(/10) CGPA </span>  
-            and <span className='text-purple'>Honours First Class</span> 
+            with <br></br><span className='text-red-400'>8.37(/10) CGPA </span>  
+            and <span className='text-red-400'>Honours First Class</span> 
             </div>
             </div>
             <hr />
@@ -50,7 +50,7 @@ const Education = () => {
             <time className="text-3xl font-mono italic">2021 - 2022</time>
             <div className="text-2xl font-black text-amber-400">M.S. in Computer Science </div>
             <div className="text-xl font-black">Graduated from <span className='text-red-400'>Northeastern University, Boston </span> 
-            with <br></br><span className='text-purple'>3.67 GPA </span>
+            with <br></br><span className='text-red-400'>3.67 GPA </span>
             </div>
             </div>
             <hr />

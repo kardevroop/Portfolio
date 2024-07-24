@@ -6,6 +6,7 @@ import Experience from "@components/Experience";
 import Footer from "@components/Footer";
 import Grid from "@components/Grid";
 import Hero from "@components/Hero";
+import News from "@components/News";
 import Publications from "@components/Publications";
 import RecentProjects from "@components/RecentProjects";
 import { FloatingNav } from "@components/ui/FloatingNavbar";
@@ -13,6 +14,7 @@ import { navItems } from "@data";
 import { FaHome } from "react-icons/fa";
 
 export default function Home() {
+
   return (
     <main className="relative bg-black-100 flex justify-center
      items-center overflow-clip flex-col mx-auto sm:px-10 px-5">
@@ -23,10 +25,10 @@ export default function Home() {
         <Grid/>
         <Education/>
         <Experience/>
-        <RecentProjects/>
-        {/* <Clients/> */}
+        <News/>
         <Publications/>
-        <Approach/>
+        <RecentProjects/>
+        {/* <Approach/> */}
         <Footer/>
       </div>
     </main>

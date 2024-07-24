@@ -3,6 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
+import Menu from './ui/Menu'
 
 const Hero = () => {
   return (
@@ -23,19 +24,20 @@ const Hero = () => {
         <div className='flex justify-center relative my-20 z-10'>
             <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw]
             flex flex-col items-center justify-center'>
-                <h2 className='uppercase tracking-widest
+                {/* <h2 className='uppercase tracking-widest
                 text-xs text-center text-blue-100 max-w-80'>
                     Designed using Next JS + React.
-                </h2>
+                </h2> */}
+                <Menu/>
+
+                <p className='uppercase text-center md:tracking-wider mt-10 mb-4
+                text-sm md:text-lg lg:text-2xl'>
+                    This is Devroop. I am a Machine Learning Researcher.
+                </p>
                 <TextGenerateEffect 
                 className='text-center text-[40px]
                 md:text-5xl lg:text-6xl' 
-                words='Hello. I am Devroop. Welcome to my Portfolio.'/>
-
-                <p className='uppercase text-center md:tracking-wider mb-4
-                text-sm md:text-lg lg:text-2xl'>
-                    ML Researcher &nbsp;&nbsp; Developer
-                </p>
+                words='Welcome to my Portfolio.'/>
                 <a href="#about">
                     <MagicButton 
                     title="Show my Work"

@@ -4,7 +4,13 @@ const nextConfig = {
     output: 'export',
     typescript: {
         ignoreBuildErrors: true,
-    }
+    },
+    images: { 
+        unoptimized: true,
+        domains: [
+            "api.microlink.io", // Microlink Image Preview
+          ],
+    } 
 };
 
 export default withSentryConfig(nextConfig, {
